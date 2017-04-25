@@ -1,0 +1,80 @@
+fieldset {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: white;
+	border-color: #999;
+	border-width: 2px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+legend {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #F3F3F3;
+	border-color: #333333;
+	border-width: 2px;
+	border-style: solid;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+input {
+	border-color: #333333;
+	border-width: 1px;
+	border-style: solid;
+}
+
+button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #1341cc;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 5px #999;
+}
+button:hover {
+	background-color: #10329a;
+}
+button:active {
+	background-color: #10239a;
+	box-shadow: 0 2px #666;
+	transform: translateY(3px);
+}
+
+
+.VirheellinenKentta {
+	background-color: #FFE4E4;
+}
+.Virheteksti {
+	color: red;
+	font-style: italic;
+	font-size: small;
+}
+.Virheblokki {
+	background-color: #FFFAFA;
+	border-color: red;
+	border-width: 1px;
+	border-style: dashed;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	font-size: small;
+}
+.Virheotsikko {
+	color: red;
+	font-style: italic;
+	font-size: medium;
+}
